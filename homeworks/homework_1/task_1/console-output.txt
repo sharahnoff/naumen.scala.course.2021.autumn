@@ -1,0 +1,40 @@
+Welcome to Scala 2.12.10 (Java HotSpot(TM) 64-Bit Server VM, Java 1.8.0_51).
+Type in expressions for evaluation. Or try :help.
+
+scala> val firstGreet = "Hello"
+firstGreet: String = Hello
+
+scala> val secondGreet = "Hola"
+secondGreet: String = Hola
+
+scala> val thirdGreet = "Guten tag"
+thirdGreet: String = Guten tag
+
+scala> val name = "Nikita"
+name: String = Nikita
+
+scala> val immutablePart = " Scala! This is "
+immutablePart: String = " Scala! This is "
+
+scala> println(firstGreet + immutablePart + name)
+Hello Scala! This is Nikita
+
+scala> println(secondGreet + immutablePart + name)
+Hola Scala! This is Nikita
+
+scala> println(thirdGreet + immutablePart + name)
+Guten tag Scala! This is Nikita
+
+scala> val reverseName = name.reverse
+reverseName: String = atikiN
+
+scala> println(firstGreet + immutablePart + reverseName)
+Hello Scala! This is atikiN
+
+scala> println(secondGreet + immutablePart + reverseName)
+Hola Scala! This is atikiN
+
+scala> println(thirdGreet + immutablePart + reverseName)
+Guten tag Scala! This is atikiN
+
+scala>
