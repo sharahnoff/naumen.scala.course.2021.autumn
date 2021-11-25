@@ -1,1 +1,6 @@
 .idea
+*.checked
+*.jar__md5
+*.pom__md5
+*.pom__sha1
+*.jar__sha1
