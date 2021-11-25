@@ -2,5 +2,10 @@
 *.checked
 *.jar__md5
 *.pom__md5
+<<<<<<< Updated upstream
 *.pom__sha1
 *.jar__sha1
+=======
+*.jar__sha1
+*.pom__sha1
+>>>>>>> Stashed changes
